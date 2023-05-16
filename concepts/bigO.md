@@ -14,10 +14,10 @@ Complexity is described by a function of variables that can change with the inpu
 - $`O(n)`$
 - $`O(n^2)`$
 - $`O(2^n)`$
-- $`O(logn)`$
-- $`O(n.m)`$
+- $`O(log n)`$
+- $`O(n \times m)`$
 
-These functions describe how the amount of operations/memory needed by the algorithm grows as the arguments **tend to infinity**. Because the variables are tending to infinity, **constants are always ignored**. That means that O(999999n) = O(7n) = O(n) = O(n / 500).
+These functions describe how the amount of operations/memory needed by the algorithm grows as the arguments **tend to infinity**. Because the variables are tending to infinity, **constants are always ignored**. That means that $`O(999999n)`$ = $`O(7n)`$ = $`O(n)`$ = $`O(n \div 500)`$.
 
 > The point of computational complexity is to analyze how an algorithm scales with the input. Let's say you have two algorithms. One runs in 
 _O(100n)_ and the other runs in _O(5n)_. Even though the second algorithm runs 20x faster, both algorithm's operations grow linearly with _n_. If you double _n_, then both algorithms will take 2x longer regardless of what the coefficients are.
@@ -27,7 +27,7 @@ Being able to analyze an algorithm and derive its time and space complexity is a
 > The best complexity possible is **_O(1)_**, called "constant time" or "constant space". It means that algorithm ALWAYS uses the same amount of resources, regardless of the input.
 > Note that a constant time complexity doesn't necessarily mean that an algorithm is fast, it just means that its runtime is independent of the input size.
 
-[![Big O Complexity Chart](../assets/img/bigO-complexity-chart.png)]
+![Big O Complexity Chart](../assets/img/bigO-complexity-chart.png)
 
 When talking about complexity, there are normally three cases:
 
