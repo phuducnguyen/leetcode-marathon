@@ -2,7 +2,7 @@
 
 ## Introduction
 
-> Only when having mastered the basic data structures and algorithms can you solve complex problems easily.
+> Only when having mastered the basic data structures and algorithms can you solve complekx problems easily.
 
 This repository is divided into three parts:
 
